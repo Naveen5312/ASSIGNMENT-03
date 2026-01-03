@@ -1,0 +1,32 @@
+/* Initial Light Theme Styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.4s, color 0.4s; /* Smooth transition */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.status-box {
+    margin-top: 20px;
+    font-weight: bold;
+}
